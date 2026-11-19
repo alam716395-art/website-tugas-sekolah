@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak - TKJ SMKN 1 Sragi</title>
+</head>
+<body bgcolor="#f4f4f9" text="#333333" font="Arial">
+
+    <!-- NAVIGASI -->
+    <div align="center">
+        <font face="Verdana" size="4" color="#0056b3"><strong>MENU UTAMA:</strong></font><br>
+        <a href="index.html">Beranda</a> | 
+        <a href="profil.html">Profil Jurusan</a> | 
+        <a href="kompetensi.html">Kompetensi</a> | 
+        <a href="kontak.html"><strong>Kontak</strong></a>
+    </div>
+    <hr size="2" color="#cccccc">
+
+    <center>
+        <h1>Hubungi Admin Jurusan</h1>
+        <p>Kami siap menjawab pertanyaan seputar pendaftaran, kurikulum, atau kerjasama industri.</p>
+    </center>
+
+    <!-- LAYOUT DUA KOLOM MENGGUNAKAN TABLE -->
+    <table width="90%" align="center" cellpadding="20" cellspacing="0" border="0">
+        <tr>
+            <!-- Kolom Kiri: Informasi Kontak & Gambar Lokasi -->
+            <td valign="top" width="40%" bgcolor="#ffffff" border="1" bordercolor="#dddddd">
+                <h3> Alamat Sekolah</h3>
+                <address>
+                    <strong>SMKN 1 Sragi</strong><br>
+                    Jl. Raya Sragi No. 1,<br>
+                    Kec. Sragi, Kab. Pekalongan,<br>
+                    Jawa Tengah 51152
+                </address>
+                
+                <hr>
+                
+                <h3>📞 Kontak Cepat</h3>
+                <ul type="none">
+                    <li>📱 WA: 0857-0074-4163 (Admin PPDB)</li>
+                    <li>✉️ Email: tkj@smkn1sragi.sch.id</li>
+                    <li>📷 IG: @tkj_smkn1sragi</li>
+                </ul>
+
+                <br>
+                <!-- Gambar Peta Simulasi / Gedung -->
+                <img src= "algorotmos.jpg"width="100%" height="150px" border="0">
+                <small><em>(gedung sekolah)</em></small>
+            </td>
+
+            <!-- Kolom Kanan: Formulir Pesan -->
+            <td valign="top" width="60%">
+                <h3>✉️ Kirim Pesan / Saran</h3>
+                <form action="#" method="POST">
+                    <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <td width="20%"><label>Nama Lengkap:</label></td>
+                            <td><input type="text" name="nama" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email:</label></td>
+                            <td><input type="email" name="email" size="30" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>Subjek:</label></td>
+                            <td>
+                                <select name="subjek">
+                                    <option value="ppdb">Informasi Pendaftaran</option>
+                                    <option value="kurikulum">Pertanyaan Kurikulum</option>
+                                    <option value="lainnya">Lain-lain</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><label>Pesan:</label></td>
+                            <td><textarea name="pesan" rows="6" cols="30" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit">Kirim Sekarang</button>
+                                <button type="reset">Bersihkan</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                
+                <br>
+                <div align="center">
+                    <small>*Formulir ini bersifat simulasi frontend saja.</small>
+                </div>
+            </td>
+        </tr>
+    </table>
+<center>
+        <a href="profil.html"> Lanjut ke Profil Jurusan &rarr;</a>
+    </center>
+    <br><br>
+    <center>
+        <hr size="1" color="#cccccc">
+        <font size="2" color="#777777">&copy; Proyek Kelompok.</font>
+    </center>
+
+</body>
+</html>
